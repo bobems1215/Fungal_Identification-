@@ -2,11 +2,17 @@
 These scripts can be used to identify fungal hits in human microbiome data
 
 ## What is included:
+
   fastq:                   Empty directory for the fastq data to be analyzed
+  
   Fungal_combo.R:          R script used to combine all fungal hits into one table called Fungal_total.csv 
-  fungal_db_download.sh    Bash script used to download PlusPF Refseq index for kraken2 analysis
+  
+  fungal_db_download.sh:    Bash script used to download PlusPF Refseq index for kraken2 analysis
+  
   fungal_lookup.sh:        Bash script used to run the kraken2 analysis and identify fungal hits in the samples
+  
   fung.list.txt:           List of fungal genera that is used for the fungal identification. This can be changed as the database is updated
+  
   kracken2.yml:            Yml file that can be used to create a conda environment called kracken2.
 
 ## Step 1: Download kraken database
