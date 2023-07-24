@@ -3,7 +3,6 @@ These scripts can be used to identify fungal hits in human microbiome data
 
 ## What is included:
 
-  fastq:                   Empty directory for the fastq data to be analyzed
   
   Fungal_combo.R:          R script used to combine all fungal hits into one table called Fungal_total.csv 
   
