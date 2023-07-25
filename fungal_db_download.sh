@@ -31,4 +31,8 @@ rm k2_pluspf_20230605.tar.gz
 
 conda env create -f kracken2.yml
 
+#Create a folder for fastq data
+
+mkdir fastq
+
 #you only have to run this once to download the reference database to the fungal_db folder.
